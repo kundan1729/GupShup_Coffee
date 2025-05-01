@@ -30,7 +30,7 @@ export const menuItems: MenuItem[] = [
     id: 4,
     name: 'Filter Coffee',
     description: 'South Indian style coffee decoction with milk',
-    price: 20,
+    price: 50,
     category: 'coffee',
     image: 'https://images.pexels.com/photos/4109743/pexels-photo-4109743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     isSpecial: true
