@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-primary-800 bg-cream-50 dark:bg-primary-950 dark:text-cream-100;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-semibold;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  a {
+    @apply text-primary-700 hover:text-accent-500 transition-colors duration-300;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-primary-700 text-white font-medium rounded-lg hover:bg-primary-800 transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-opacity-50;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-accent-500 text-white font-medium rounded-lg hover:bg-accent-600 transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-accent-400 focus:ring-opacity-50;
+  }
+
+  .card {
+    @apply bg-white dark:bg-primary-900 rounded-xl shadow-md p-6 transition-all duration-300 hover:shadow-lg;
+  }
+
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+
+  .section {
+    @apply py-12 md:py-20;
+  }
+
+  .menu-item {
+    @apply flex flex-col md:flex-row justify-between items-start md:items-center gap-2 border-b border-primary-200 dark:border-primary-800 py-4;
+  }
+
+  .menu-price {
+    @apply text-accent-600 dark:text-accent-400 font-semibold;
+  }
+
+  .animate-fade-in {
+    @apply opacity-0 translate-y-8 transition-all duration-700 ease-out;
+  }
+
+  .animate-fade-in.appear {
+    @apply opacity-100 translate-y-0;
+  }
+}

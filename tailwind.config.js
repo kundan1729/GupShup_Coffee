@@ -1,0 +1,66 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#f9f5f1',
+          100: '#f0e6d8',
+          200: '#e6d2b7',
+          300: '#d5b48f',
+          400: '#c49a6c',
+          500: '#b27e4b',
+          600: '#a06747',
+          700: '#8b4513',
+          800: '#693818',
+          900: '#4e2a14',
+          950: '#2c170c',
+        },
+        secondary: {
+          50: '#fdf8f6',
+          100: '#f9eee8',
+          200: '#f5dfd1',
+          300: '#ebc7ae',
+          400: '#dea57f',
+          500: '#d58d5c',
+          600: '#c47242',
+          700: '#a25937',
+          800: '#854832',
+          900: '#6f3d2c',
+          950: '#3c1f17',
+        },
+        accent: {
+          50: '#fff8eb',
+          100: '#ffecc6',
+          200: '#ffd688',
+          300: '#ffba4a',
+          400: '#ff9d1f',
+          500: '#ff8c00',
+          600: '#e46a00',
+          700: '#bd4a04',
+          800: '#993a0b',
+          900: '#7c300d',
+          950: '#481700',
+        },
+        cream: {
+          50: '#FDFBF7',
+          100: '#FAEBD7',
+          200: '#F5F5DC',
+          300: '#FFF8DC',
+        },
+      },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+        serif: ['Playfair Display', 'serif'],
+      },
+      backgroundImage: {
+        'hero-pattern': "url('https://images.pexels.com/photos/4350057/pexels-photo-4350057.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
+        'menu-pattern': "url('https://images.pexels.com/photos/2074127/pexels-photo-2074127.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
+        'about-pattern': "url('https://images.pexels.com/photos/3020919/pexels-photo-3020919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
+      },
+    },
+  },
+  plugins: [],
+};
