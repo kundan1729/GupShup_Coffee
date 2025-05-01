@@ -5,7 +5,7 @@ export const menuItems: MenuItem[] = [
     id: 1,
     name: 'Cutting Chai',
     description: 'Strong, aromatic tea served in a small glass',
-    price: 50,
+    price: 30,
     category: 'tea',
     image: 'https://images.pexels.com/photos/5946975/pexels-photo-5946975.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     isSpecial: true
