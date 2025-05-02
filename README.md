@@ -1,2 +1,2 @@
 GupSHUP
-Cofee Shop
+Coffee Shop
