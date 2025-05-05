@@ -29,7 +29,7 @@ const AboutPage: React.FC = () => {
               <div>
                 <h2 className="font-serif mb-6">The Beginning</h2>
                 <p className="mb-4 text-primary-700 dark:text-cream-200">
-                  It all started in 2020 when three c friends—Kundan, Rishabh, and Sashwat—found themselves 
+                  It all started in 2020 when three friends—Kundan, Rishabh, and Shashwat—found themselves 
                   meeting almost daily at a local chai stall near their engineering college in Begusarai. These chai 
                   breaks became their escape from academic pressure, a time to discuss their dreams, challenges, 
                   and ambitions.
