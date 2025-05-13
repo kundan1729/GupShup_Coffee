@@ -5,7 +5,7 @@ export const menuItems: MenuItem[] = [
     id: 1,
     name: 'Cutting Chai',
     description: 'Strong, aromatic tea served in a small glass',
-    price: 40,
+    price: 60,
     category: 'tea',
     image: 'https://images.pexels.com/photos/5946975/pexels-photo-5946975.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     isSpecial: true
@@ -14,7 +14,7 @@ export const menuItems: MenuItem[] = [
     id: 2,
     name: 'Masala Chai',
     description: 'Classic Indian tea with aromatic spices',
-    price: 30,
+    price: 25,
     category: 'tea',
     image: 'https://images.pexels.com/photos/6087188/pexels-photo-6087188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   },
@@ -22,7 +22,7 @@ export const menuItems: MenuItem[] = [
     id: 3,
     name: 'Tandoori Chai',
     description: 'Chai served in a clay cup for earthy flavor',
-    price: 50,
+    price: 100,
     category: 'tea',
     image: 'https://images.pexels.com/photos/4021983/pexels-photo-4021983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   },
