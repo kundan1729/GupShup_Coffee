@@ -10,7 +10,8 @@ Welcome to **GupShup & Coffee**, a cozy, beautifully designed café website that
 
 ## 📸 Preview
 
-![GupShup & Coffee Preview](./preview.png) <!-- (You can replace this with one of your uploaded screenshots or just mention they're in `/screenshots` folder if uploading on GitHub) -->
+<img width="600" height="1305" alt="preview" src="https://github.com/user-attachments/assets/494aeb79-2ff9-43b0-b430-6984a7f9b02a" />
+<!-- (You can replace this with one of your uploaded screenshots or just mention they're in `/screenshots` folder if uploading on GitHub) -->
 
 ---
 
